@@ -1,0 +1,37 @@
+{
+  "name": "starling_helper",
+  "version": "0.0.1",
+  "description": "A helper library for starling",
+  "main": "index.js",
+  "scripts": {
+    "test": "nyc --reporter=lcov --report-dir=public/coverage  mocha",
+    "md": "mos",git init
+    "?md": "echo \"Update the markdown files\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/davegrix/Starling-Helper.git"
+  },
+  "dependencies": {
+    "request": "^2.83.0",
+    "request-promise": "^4.2.2"
+  },
+  "devDependencies": {
+    "babel-preset-env": "^1.6.1",
+    "chai": "^4.1.2",
+    "mocha": "^4.1.0",
+    "mos": "^1.3.1",
+    "nyc": "^11.4.1"
+  },
+  "keywords": [
+    "Starling",
+    "Banking",
+    "API"
+  ],
+  "author": "Dave Grix",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/davegrix/Starling-Helper/issues"
+  },
+  "homepage": "https://github.com/davegrix/Starling-Helper#readme"
+}

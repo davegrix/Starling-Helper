@@ -1,11 +1,11 @@
 {
   "name": "starling_helper",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A helper library for starling",
   "main": "index.js",
   "scripts": {
     "test": "nyc --reporter=lcov --report-dir=public/coverage  mocha",
-    "md": "mos",git init
+    "md": "mos",
     "?md": "echo \"Update the markdown files\""
   },
   "repository": {
@@ -21,6 +21,7 @@
     "chai": "^4.1.2",
     "mocha": "^4.1.0",
     "mos": "^1.3.1",
+    "mos-plugin-license": "^1.2.2",
     "nyc": "^11.4.1"
   },
   "keywords": [

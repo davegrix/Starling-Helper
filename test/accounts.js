@@ -26,7 +26,7 @@ describe('Account Tests', () => {
         starling.getData('getAccountBalances')
             .then(result => {
                 const sRes = JSON.parse(result);
-                console.log(sRes.amount);
+                chai.expect(sRes.amount).to.be.a('number');
                 done();
             })
             .catch(err => {

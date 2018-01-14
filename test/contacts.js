@@ -35,8 +35,42 @@ describe('Contact Tests', () => {
             .catch(err => {
                 console.log('getContactByID', err);
             });
+    });
 
-    })
+
+    it('Should return an array of contactAccounts', (done) => {
+
+        const obj = {};
+        obj.contactID = key.contactID;
+        starling.params(obj);
+        starling.getData('getContactAccounts')
+            .then(result => {
+                const sRes = JSON.parse(result);
+                chai.expect(sRes.contactAccounts).to.be.an('array');
+                done();
+            })
+            .catch(err => {
+                console.log('getContactAccounts', err);
+            });
+    });
+
+    it('Should return the ID of the contacts account sent ', (done) => {
+
+        const obj = {};
+        obj.contactID = key.contactID;
+        obj.contactAccountID = key.contactAccountID;
+        starling.params(obj);
+        starling.getData('getContactAccountsByID')
+            .then(result => {
+                const sRes = JSON.parse(result);
+                chai.assert(sRes.id === key.contactAccountID);
+                done();
+            })
+            .catch(err => {
+                console.log('getContactAccountsByID', err);
+            });
+    });
+
 
 });
 

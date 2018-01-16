@@ -63,14 +63,19 @@ The following are currently Available
     * getAddresses
 * Contacts
     * getContacts
-    * getContactByID      _contactID_
-    * getContactAccounts ```contactID```
-    * getContactAccountByID ```contactID``` ```contactAccountID```
+    * getContactByID                    
+        * ```contactID```
+    * getContactAccounts
+        * ```contactID```
+    * getContactAccountByID 
+        * ```contactID```
+        * ```contactAccountID```
 * Customers
     * getCustomers
 * Direct Debit Mandates
     * getDirectDebitMandates
-    * getDirectDebitMandatesByUID ```mandateUID```
+    * getDirectDebitMandatesByUID 
+        * ```mandateUID```
 * Who Am I?
     * getMe
 * Cards

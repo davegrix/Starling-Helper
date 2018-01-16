@@ -63,7 +63,7 @@ The following are currently Available
     * getAddresses
 * Contacts
     * getContacts
-    * getContactByID      ```contactID```
+    * getContactByID      _contactID_
     * getContactAccounts ```contactID```
     * getContactAccountByID ```contactID``` ```contactAccountID```
 * Customers

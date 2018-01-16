@@ -75,6 +75,14 @@ The following are currently Available
     * getMe
 * Cards
     * getCards
+* Payments
+    * getPaymentSchedule
+* Transactions
+    * getTodaysTransactions
+    * getWeeksTransactions
+    * getMonthsTransactions
+    * getYearsTransactions
+    * getAllTransactions
     
     
 ## Tests and Coverage
@@ -82,12 +90,6 @@ The following are currently Available
 ```
 npm test
 ```
-
-
-    
-    
-
-
 
 
 <!--@license()-->

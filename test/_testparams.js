@@ -2,8 +2,11 @@
 
 const apiKey = '';
 const contactID = '';
-
+const contactAccountID = '';
+const mandateUID = '';
 module.exports = {
     apiKey,
-    contactID
+    contactID,
+    contactAccountID,
+    mandateUID
 };

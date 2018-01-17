@@ -4,7 +4,6 @@
 [![npm version](https://img.shields.io/npm/v/starling_helper.svg?style=plastic)](https://www.npmjs.com/package/starling_helper)
 <!--/@-->
 
-# Will be updated around the 20th Jan 2018
 
 ## Description
 

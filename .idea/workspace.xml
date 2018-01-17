@@ -2,14 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="62ab03db-d489-46e6-a9ad-6adf8544ee18" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/test/goals.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/test/merchants.js" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
-      <change beforePath="$PROJECT_DIR$/lib/constants.js" afterPath="$PROJECT_DIR$/lib/constants.js" />
-      <change beforePath="$PROJECT_DIR$/lib/starling.js" afterPath="$PROJECT_DIR$/lib/starling.js" />
-      <change beforePath="$PROJECT_DIR$/test/_testparams.js" afterPath="$PROJECT_DIR$/test/_testparams.js" />
+      <change beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
+      <change beforePath="$PROJECT_DIR$/test/directdebitmandates.js" afterPath="$PROJECT_DIR$/test/directdebitmandates.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -25,8 +21,8 @@
     <SUITE FILE_PATH="coverage/starling_helper$test_goals_js.coverage" NAME="test/goals.js Coverage Results" MODIFIED="1516219609104" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="MochaJavaScriptTestRunnerCoverage" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
     <SUITE FILE_PATH="coverage/starling_helper$test_payments_js.coverage" NAME="test/payments.js Coverage Results" MODIFIED="1516219621957" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="MochaJavaScriptTestRunnerCoverage" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
     <SUITE FILE_PATH="coverage/starling_helper$Customer_Tests_Should_return_an_accountHolderType_of_INDIVIDUAL_.coverage" NAME="Customer Tests.Should return an accountHolderType of INDIVIDUAL  Coverage Results" MODIFIED="1515879178019" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="MochaJavaScriptTestRunnerCoverage" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
-    <SUITE FILE_PATH="coverage/starling_helper$test_directdebitmandates_js.coverage" NAME="test/directdebitmandates.js Coverage Results" MODIFIED="1516219605049" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="MochaJavaScriptTestRunnerCoverage" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
     <SUITE FILE_PATH="coverage/starling_helper$test_rejection_js.coverage" NAME="test/rejection.js Coverage Results" MODIFIED="1516219624684" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="MochaJavaScriptTestRunnerCoverage" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/starling_helper$test_directdebitmandates_js.coverage" NAME="test/directdebitmandates.js Coverage Results" MODIFIED="1516219896314" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="MochaJavaScriptTestRunnerCoverage" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
     <SUITE FILE_PATH="coverage/starling_helper$test_addresses_js.coverage" NAME="test/addresses.js Coverage Results" MODIFIED="1516219590570" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="MochaJavaScriptTestRunnerCoverage" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
     <SUITE FILE_PATH="coverage/starling_helper$test_contacts_js.coverage" NAME="test/contacts.js Coverage Results" MODIFIED="1516219597746" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="MochaJavaScriptTestRunnerCoverage" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
     <SUITE FILE_PATH="coverage/starling_helper$test_customers_js.coverage" NAME="test/customers.js Coverage Results" MODIFIED="1516219601609" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="MochaJavaScriptTestRunnerCoverage" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
@@ -47,8 +43,8 @@
             <file leaf-file-name="constants.js" pinned="false" current-in-tab="true">
               <entry file="file://$PROJECT_DIR$/lib/constants.js">
                 <provider selected="true" editor-type-id="text-editor">
-                  <state relative-caret-position="342">
-                    <caret line="19" column="41" lean-forward="true" selection-start-line="19" selection-start-column="41" selection-end-line="19" selection-end-column="41" />
+                  <state relative-caret-position="216">
+                    <caret line="12" column="61" lean-forward="false" selection-start-line="12" selection-start-column="34" selection-end-line="12" selection-end-column="61" />
                     <folding />
                   </state>
                 </provider>
@@ -71,15 +67,15 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="378">
-                <caret line="21" column="3" lean-forward="true" selection-start-line="21" selection-start-column="3" selection-end-line="21" selection-end-column="3" />
+              <first_editor relative-caret-position="90">
+                <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
                 <folding>
-                  <marker date="1516219586499" expanded="true" signature="1233:1246" ph="{...}" />
-                  <marker date="1516219586499" expanded="true" signature="1275:1288" ph="{...}" />
+                  <marker date="1516219667318" expanded="true" signature="1190:1203" ph="{...}" />
+                  <marker date="1516219667318" expanded="true" signature="1232:1245" ph="{...}" />
                 </folding>
               </first_editor>
               <second_editor />
@@ -90,8 +86,8 @@
       <file leaf-file-name="starling.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lib/starling.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="113" column="48" lean-forward="true" selection-start-line="113" selection-start-column="48" selection-end-line="113" selection-end-column="48" />
+            <state relative-caret-position="1503">
+              <caret line="113" column="48" lean-forward="false" selection-start-line="113" selection-start-column="48" selection-end-line="113" selection-end-column="48" />
               <folding />
             </state>
           </provider>
@@ -111,7 +107,17 @@
         <entry file="file://$PROJECT_DIR$/test/merchants.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="117">
-              <caret line="23" column="45" lean-forward="true" selection-start-line="23" selection-start-column="45" selection-end-line="23" selection-end-column="45" />
+              <caret line="23" column="45" lean-forward="false" selection-start-line="23" selection-start-column="45" selection-end-line="23" selection-end-column="45" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="package.json" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/package.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="432">
+              <caret line="24" column="20" lean-forward="true" selection-start-line="24" selection-start-column="20" selection-end-line="24" selection-end-column="20" />
               <folding />
             </state>
           </provider>
@@ -130,18 +136,18 @@
       <file leaf-file-name="testparams.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test/testparams.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="17" column="17" lean-forward="false" selection-start-line="17" selection-start-column="4" selection-end-line="17" selection-end-column="17" />
+            <state relative-caret-position="324">
+              <caret line="18" column="2" lean-forward="true" selection-start-line="18" selection-start-column="2" selection-end-line="18" selection-end-column="2" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="_testparams.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/_testparams.js">
+      <file leaf-file-name="directdebitmandates.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test/directdebitmandates.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="288">
-              <caret line="16" column="17" lean-forward="true" selection-start-line="16" selection-start-column="17" selection-end-line="16" selection-end-column="17" />
+              <caret line="34" column="23" lean-forward="true" selection-start-line="34" selection-start-column="23" selection-end-line="34" selection-end-column="23" />
               <folding />
             </state>
           </provider>
@@ -160,6 +166,7 @@
   <component name="Git.Settings">
     <option name="PREVIOUS_COMMIT_AUTHORS">
       <list>
+        <option value="Dave &lt;dave@dgrix.com&gt;" />
         <option value="davegrix &lt;dave.l.grix@gmail.com&gt;" />
       </list>
     </option>
@@ -180,21 +187,21 @@
         <option value="$PROJECT_DIR$/test/customers.js" />
         <option value="$PROJECT_DIR$/test/directdebitmandate.html" />
         <option value="$PROJECT_DIR$/test/directdebitmandate.js" />
-        <option value="$PROJECT_DIR$/test/directdebitmandates.js" />
         <option value="$PROJECT_DIR$/public/coverage/lcov-report/sorter.js" />
         <option value="$PROJECT_DIR$/test/me.js" />
         <option value="$PROJECT_DIR$/test/cards.js" />
         <option value="$PROJECT_DIR$/test/transactions.js" />
         <option value="$PROJECT_DIR$/test/payments.js" />
-        <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/test/merchants.js" />
         <option value="$PROJECT_DIR$/lib/constants.js" />
-        <option value="$PROJECT_DIR$/test/testparams.js" />
         <option value="$PROJECT_DIR$/lib/starling.js" />
         <option value="$PROJECT_DIR$/test/goals.js" />
         <option value="$PROJECT_DIR$/test/_testparams.js" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/test/testparams.js" />
+        <option value="$PROJECT_DIR$/test/directdebitmandates.js" />
+        <option value="$PROJECT_DIR$/package.json" />
       </list>
     </option>
   </component>
@@ -300,7 +307,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Mocha.test/transactions.js">
+  <component name="RunManager" selected="Mocha.test/directdebitmandates.js">
     <configuration default="true" type="js.build_tools.npm" factoryName="npm">
       <package-json value="$PROJECT_DIR$/package.json" />
       <command value="run" />
@@ -308,7 +315,7 @@
       <node-interpreter value="$USER_HOME$/.nvm/versions/node/v8.6.0/bin/node" />
       <envs />
     </configuration>
-    <configuration name="test/me.js" type="mocha-javascript-test-runner" factoryName="Mocha" temporary="true" nameIsGenerated="true">
+    <configuration name="test/directdebitmandates.js" type="mocha-javascript-test-runner" factoryName="Mocha" temporary="true" nameIsGenerated="true">
       <node-interpreter>project</node-interpreter>
       <node-options />
       <working-directory>$PROJECT_DIR$</working-directory>
@@ -317,7 +324,7 @@
       <ui>bdd</ui>
       <extra-mocha-options />
       <test-kind>TEST_FILE</test-kind>
-      <test-file>$PROJECT_DIR$/test/me.js</test-file>
+      <test-file>$PROJECT_DIR$/test/directdebitmandates.js</test-file>
     </configuration>
     <configuration name="test/merchants.js" type="mocha-javascript-test-runner" factoryName="Mocha" temporary="true" nameIsGenerated="true">
       <node-interpreter>project</node-interpreter>
@@ -364,19 +371,19 @@
       <test-file>$PROJECT_DIR$/test/transactions.js</test-file>
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Mocha.test/me.js" />
-      <item index="1" class="java.lang.String" itemvalue="Mocha.test/merchants.js" />
-      <item index="2" class="java.lang.String" itemvalue="Mocha.test/payments.js" />
-      <item index="3" class="java.lang.String" itemvalue="Mocha.test/rejection.js" />
-      <item index="4" class="java.lang.String" itemvalue="Mocha.test/transactions.js" />
+      <item index="0" class="java.lang.String" itemvalue="Mocha.test/merchants.js" />
+      <item index="1" class="java.lang.String" itemvalue="Mocha.test/payments.js" />
+      <item index="2" class="java.lang.String" itemvalue="Mocha.test/rejection.js" />
+      <item index="3" class="java.lang.String" itemvalue="Mocha.test/transactions.js" />
+      <item index="4" class="java.lang.String" itemvalue="Mocha.test/directdebitmandates.js" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Mocha.test/transactions.js" />
-        <item index="1" class="java.lang.String" itemvalue="Mocha.test/rejection.js" />
-        <item index="2" class="java.lang.String" itemvalue="Mocha.test/payments.js" />
-        <item index="3" class="java.lang.String" itemvalue="Mocha.test/merchants.js" />
-        <item index="4" class="java.lang.String" itemvalue="Mocha.test/me.js" />
+        <item index="0" class="java.lang.String" itemvalue="Mocha.test/directdebitmandates.js" />
+        <item index="1" class="java.lang.String" itemvalue="Mocha.test/transactions.js" />
+        <item index="2" class="java.lang.String" itemvalue="Mocha.test/rejection.js" />
+        <item index="3" class="java.lang.String" itemvalue="Mocha.test/payments.js" />
+        <item index="4" class="java.lang.String" itemvalue="Mocha.test/merchants.js" />
       </list>
     </recent_temporary>
   </component>
@@ -402,7 +409,7 @@
       <workItem from="1515888836138" duration="1864000" />
       <workItem from="1516128745215" duration="7000" />
       <workItem from="1516128951710" duration="5162000" />
-      <workItem from="1516216781767" duration="2832000" />
+      <workItem from="1516216781767" duration="3158000" />
     </task>
     <task id="LOCAL-00001" summary="Added a few more get endpoints">
       <created>1515890078211</created>
@@ -432,20 +439,27 @@
       <option name="project" value="LOCAL" />
       <updated>1516142566855</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Finished Get Endpoints">
+      <created>1516219653677</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1516219653677</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="test_cards_js - 2018.01.17 at 20h 06m 33s.xml">
-      <configuration name="test/cards.js" configurationId="mocha-javascript-test-runner" />
-    </history-entry>
-    <history-entry file="test_contacts_js - 2018.01.17 at 20h 06m 37s.xml">
-      <configuration name="test/contacts.js" configurationId="mocha-javascript-test-runner" />
-    </history-entry>
     <history-entry file="test_customers_js - 2018.01.17 at 20h 06m 41s.xml">
       <configuration name="test/customers.js" configurationId="mocha-javascript-test-runner" />
     </history-entry>
     <history-entry file="test_directdebitmandates_js - 2018.01.17 at 20h 06m 45s.xml">
+      <configuration name="test/directdebitmandates.js" configurationId="mocha-javascript-test-runner" />
+    </history-entry>
+    <history-entry file="test_directdebitmandates_js - 2018.01.17 at 20h 10m 49s.xml">
+      <configuration name="test/directdebitmandates.js" configurationId="mocha-javascript-test-runner" />
+    </history-entry>
+    <history-entry file="test_directdebitmandates_js - 2018.01.17 at 20h 11m 36s.xml">
       <configuration name="test/directdebitmandates.js" configurationId="mocha-javascript-test-runner" />
     </history-entry>
     <history-entry file="test_goals_js - 2018.01.17 at 20h 06m 49s.xml">
@@ -468,7 +482,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="24625000" />
+    <option name="totallyTimeSpent" value="24951000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="-2" width="1920" height="1034" extended-state="6" />
@@ -504,7 +518,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Added a few more get endpoints" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added a few more get endpoints" />
+    <MESSAGE value="Finished Get Endpoints" />
+    <option name="LAST_COMMIT_MESSAGE" value="Finished Get Endpoints" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -786,14 +801,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="486">
-          <caret line="27" column="15" lean-forward="false" selection-start-line="27" selection-start-column="15" selection-end-line="27" selection-end-column="15" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test/me.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="450">
@@ -818,22 +825,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/starling.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="113" column="48" lean-forward="true" selection-start-line="113" selection-start-column="48" selection-end-line="113" selection-end-column="48" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/directdebitmandates.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="394">
-          <caret line="24" column="32" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test/goals.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="297">
@@ -845,15 +836,7 @@
     <entry file="file://$PROJECT_DIR$/test/_testparams.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="288">
-          <caret line="16" column="17" lean-forward="true" selection-start-line="16" selection-start-column="17" selection-end-line="16" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/testparams.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="17" column="17" lean-forward="false" selection-start-line="17" selection-start-column="4" selection-end-line="17" selection-end-column="17" />
+          <caret line="16" column="17" lean-forward="false" selection-start-line="16" selection-start-column="17" selection-end-line="16" selection-end-column="17" />
           <folding />
         </state>
       </provider>
@@ -861,15 +844,7 @@
     <entry file="file://$PROJECT_DIR$/test/merchants.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="117">
-          <caret line="23" column="45" lean-forward="true" selection-start-line="23" selection-start-column="45" selection-end-line="23" selection-end-column="45" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/constants.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="19" column="41" lean-forward="true" selection-start-line="19" selection-start-column="41" selection-end-line="19" selection-end-column="41" />
+          <caret line="23" column="45" lean-forward="false" selection-start-line="23" selection-start-column="45" selection-end-line="23" selection-end-column="45" />
           <folding />
         </state>
       </provider>
@@ -877,14 +852,54 @@
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="378">
-            <caret line="21" column="3" lean-forward="true" selection-start-line="21" selection-start-column="3" selection-end-line="21" selection-end-column="3" />
+          <first_editor relative-caret-position="90">
+            <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
             <folding>
-              <marker date="1516219586499" expanded="true" signature="1233:1246" ph="{...}" />
-              <marker date="1516219586499" expanded="true" signature="1275:1288" ph="{...}" />
+              <marker date="1516219667318" expanded="true" signature="1190:1203" ph="{...}" />
+              <marker date="1516219667318" expanded="true" signature="1232:1245" ph="{...}" />
             </folding>
           </first_editor>
           <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/testparams.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="18" column="2" lean-forward="true" selection-start-line="18" selection-start-column="2" selection-end-line="18" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/starling.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1503">
+          <caret line="113" column="48" lean-forward="false" selection-start-line="113" selection-start-column="48" selection-end-line="113" selection-end-column="48" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/constants.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="12" column="61" lean-forward="false" selection-start-line="12" selection-start-column="34" selection-end-line="12" selection-end-column="61" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/directdebitmandates.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="34" column="23" lean-forward="true" selection-start-line="34" selection-start-column="23" selection-end-line="34" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="24" column="20" lean-forward="true" selection-start-line="24" selection-start-column="20" selection-end-line="24" selection-end-column="20" />
+          <folding />
         </state>
       </provider>
     </entry>

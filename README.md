@@ -88,7 +88,20 @@ The following are currently Available
     * getMonthsTransactions
     * getYearsTransactions
     * getAllTransactions
-    
+* Merchants
+    * getMerchant
+        * ```merchantID```
+    * getMerchantLocation
+        * ```merchantID```
+        * ```merchantLocationID```
+* Goals
+    * getAllSavingGoals
+    * getGoalByID
+        * ```savingsGoalID```
+    * getGoalsRecurringTransfers
+        * ```savingsGoalID```
+    * getGoalPhoto
+        * ```savingsGoalID```
     
 ## Tests and Coverage
 

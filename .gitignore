@@ -1,2 +1,8 @@
 
 /test/testparams.js
+.idea/sonarlint/
+.nyc_output/
+node_modules/.cache/
+node_modules/mos/node_modules/
+public/
+
